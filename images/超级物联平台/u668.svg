@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="156px" height="156px" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient gradientUnits="userSpaceOnUse" x1="578" y1="154" x2="578" y2="310" id="LinearGradient4474">
+      <stop id="Stop4475" stop-color="#325bee" stop-opacity="0.447058823529412" offset="0" />
+      <stop id="Stop4476" stop-color="#000000" offset="1" />
+    </linearGradient>
+  </defs>
+  <g transform="matrix(1 0 0 1 -500 -154 )">
+    <path d="M 500.5 170  A 15.5 15.5 0 0 1 516 154.5 L 640 154.5  A 15.5 15.5 0 0 1 655.5 170 L 655.5 294  A 15.5 15.5 0 0 1 640 309.5 L 516 309.5  A 15.5 15.5 0 0 1 500.5 294 L 500.5 170  Z " fill-rule="nonzero" fill="url(#LinearGradient4474)" stroke="none" />
+    <path d="M 500.5 170  A 15.5 15.5 0 0 1 516 154.5 L 640 154.5  A 15.5 15.5 0 0 1 655.5 170 L 655.5 294  A 15.5 15.5 0 0 1 640 309.5 L 516 309.5  A 15.5 15.5 0 0 1 500.5 294 L 500.5 170  Z " stroke-width="1" stroke="#ffffff" fill="none" />
+  </g>
+</svg>
