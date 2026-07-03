@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="585px" height="210px" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient gradientUnits="userSpaceOnUse" x1="33.0462962962975" y1="32.9692480359126" x2="505.136243386242" y2="142.789674523007" id="LinearGradient5393">
+      <stop id="Stop5394" stop-color="#cad2ec" stop-opacity="0.235294117647059" offset="0" />
+      <stop id="Stop5395" stop-color="#ffffff" stop-opacity="0.0784313725490196" offset="1" />
+    </linearGradient>
+    <radialGradient cx="6.77551020408043" cy="10.0143017476338" r="587.381135237213" gradientTransform="matrix(0.996397622257663 0.0848043534217156 -0.0269638589505912 0.316808322464969 0.294432166964014 6.26709484834868 )" gradientUnits="userSpaceOnUse" id="RadialGradient5396">
+      <stop id="Stop5397" stop-color="#ffffff" stop-opacity="0.549019607843137" offset="0" />
+      <stop id="Stop5398" stop-color="#ffffff" stop-opacity="0" offset="0.99" />
+    </radialGradient>
+    <filter x="-1px" y="-1px" width="585px" height="210px" filterUnits="userSpaceOnUse" id="filter5399">
+      <feOffset dx="1" dy="1" in="SourceAlpha" result="shadowOffsetInner" />
+      <feGaussianBlur stdDeviation="1" in="shadowOffsetInner" result="shadowGaussian" />
+      <feComposite in2="shadowGaussian" operator="atop" in="SourceAlpha" result="shadowComposite" />
+      <feColorMatrix type="matrix" values="0 0 0 0 0.00784313725490196  0 0 0 0 0.654901960784314  0 0 0 0 0.941176470588235  0 0 0 0.552941176470588 0  " in="shadowComposite" />
+    </filter>
+    <g id="widget5400">
+      <path d="M 0.5 12  A 11.5 11.5 0 0 1 12 0.5 L 569 0.5  A 11.5 11.5 0 0 1 580.5 12 L 580.5 194  A 11.5 11.5 0 0 1 569 205.5 L 12 205.5  A 11.5 11.5 0 0 1 0.5 194 L 0.5 12  Z " fill-rule="nonzero" fill="url(#LinearGradient5393)" stroke="none" />
+      <path d="M 0.5 12  A 11.5 11.5 0 0 1 12 0.5 L 569 0.5  A 11.5 11.5 0 0 1 580.5 12 L 580.5 194  A 11.5 11.5 0 0 1 569 205.5 L 12 205.5  A 11.5 11.5 0 0 1 0.5 194 L 0.5 12  Z " stroke-width="1" stroke="url(#RadialGradient5396)" fill="none" />
+    </g>
+  </defs>
+  <g transform="matrix(1 0 0 1 1 1 )">
+    <use xlink:href="#widget5400" filter="url(#filter5399)" />
+    <use xlink:href="#widget5400" />
+  </g>
+</svg>

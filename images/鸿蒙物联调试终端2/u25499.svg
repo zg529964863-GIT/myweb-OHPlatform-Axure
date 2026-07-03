@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="224px" height="96px" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient gradientUnits="userSpaceOnUse" x1="947.658846568432" y1="422.9510567297" x2="738.170924943582" y2="422.9510567297" id="LinearGradient2980">
+      <stop id="Stop2981" stop-color="#ffffff" stop-opacity="0" offset="0" />
+      <stop id="Stop2982" stop-color="#ffffff" stop-opacity="0" offset="1" />
+    </linearGradient>
+    <filter x="731px" y="377px" width="224px" height="96px" filterUnits="userSpaceOnUse" id="filter2983">
+      <feOffset dx="1" dy="1" in="SourceAlpha" result="shadowOffsetInner" />
+      <feGaussianBlur stdDeviation="1" in="shadowOffsetInner" result="shadowGaussian" />
+      <feComposite in2="shadowGaussian" operator="atop" in="SourceAlpha" result="shadowComposite" />
+      <feColorMatrix type="matrix" values="0 0 0 0 0.00784313725490196  0 0 0 0 0.654901960784314  0 0 0 0 0.941176470588235  0 0 0 0.552941176470588 0  " in="shadowComposite" />
+    </filter>
+    <g id="widget2984">
+      <path d="M 732 390  A 12 12 0 0 1 744 378 L 940 378  A 12 12 0 0 1 952 390 L 952 458  A 12 12 0 0 1 940 470 L 744 470  A 12 12 0 0 1 732 458 L 732 390  Z " fill-rule="nonzero" fill="url(#LinearGradient2980)" stroke="none" />
+    </g>
+  </defs>
+  <g transform="matrix(1 0 0 1 -731 -377 )">
+    <use xlink:href="#widget2984" filter="url(#filter2983)" />
+    <use xlink:href="#widget2984" />
+  </g>
+</svg>
